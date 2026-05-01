@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+.div-body-login {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fefffe27;
+    border: 1px solid #1d1d1d;
+    /* variables opcionales para controlar intensidad */
+    --grid-color: 0, 0, 0;
+    --grid-alpha-small: 0.0015;
+    --grid-alpha-large: 0.03;
+
+    background-color: #ffffff;
+    background-image:
+        linear-gradient(to right, rgba(var(--grid-color), var(--grid-alpha-small)) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(var(--grid-color), var(--grid-alpha-small)) 1px, transparent 1px),
+        linear-gradient(to right, rgba(var(--grid-color), var(--grid-alpha-large)) 1.2px, transparent 1.2px),
+        linear-gradient(to bottom, rgba(var(--grid-color), var(--grid-alpha-large)) 1.2px, transparent 1.2px);
+    background-size: 30px 30px;
+    background-repeat: repeat;
+}
+
+.div-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #1d1d1d34;
+    background-color: #fff;
+    border-radius: 0px;
+    padding: 20px;
+    width: 350px;
+}
+
+.div-body-login h1 {
+    color: #222;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+}
+
+.div-body-login p {
+    margin-top: 8px;
+    margin-bottom: 13px;
+    padding: 0;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 200;
+}
+
+.div-body-login span {
+    color: #007bff;
+    border-bottom: 1px solid #007bff;
+}
+
+.div-body-login input {
+    font-size: 26px;
+    border: 1px solid #1d1d1d91;
+    margin: 1px;
+    border-radius: 5px;
+    background-color: #24610042;
+    font-family: 'Google Sans', sans-serif;
+    font-weight: 100;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.div-body-login input:focus {
+    outline: 1px solid #000;
+}
+
+.button-login {
+    width: 100%;
+    height: 50px;
+    background-color: #98df76;
+    border: 1px solid #1d1d1d;
+    margin-top: 10px;
+    font-family: 'Google Sans', sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transición suave */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button-login img {
+    width: 27px;
+    transition: transform 0.2s ease;
+}
+
+.button-login:hover {
+    background-color: #7fc75d;
+    transform: translateY(-1px);
+}
+
+.button-login:hover img {
+    transform: scale(1.1);
+}
