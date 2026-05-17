@@ -1,70 +1,75 @@
 # Vendy-desktop
 
-[**Vendy**](https://vendyapp.vercel.app/) plataforman sortutako denda erakusteko mahaigaineko aplikazioa.  
-Software hau Vendy aplikazio-suitearen parte da.  
-**Electron** erabiliz garatu da, eta **Vite** eta **React** teknologiak erabiltzen ditu erabiltzaile interfazea eraikitzeko.  
-[**Proiektuaren egitura**](https://githubtree.mgks.dev/repo/Wyxemon/Vendy-desktop/main/)
+Aplicación de escritorio para mostrar la tienda creada en [**Vendy**](https://vendyapp.vercel.app/).
+
+Este software forma parte de la suite de aplicaciones de Vendy. Ha sido desarrollado con **Electron**, utilizando **Vite** y **React** para la interfaz de usuario. [**Estructura del proyecto**](https://githubtree.mgks.dev/repo/Wyxemon/Vendy-desktop/main/)
 
 <p align="left">
   <a href="https://github.com/Wyxemon/Vendy-desktop/releases/latest">
-    <img src="https://img.shields.io/badge/Deskargatu-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/Descargar-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
   </a>
   <a href="https://github.com/Wyxemon/Vendy-desktop/releases/latest">
-    <img src="https://img.shields.io/badge/Deskargatu-macOS-0078D6?style=for-the-badge&logo=apple&logoColor=white" />
+    <img src="https://img.shields.io/badge/Descargar-macOS-0078D6?style=for-the-badge&logo=apple&logoColor=white" />
   </a>
-<a href="https://github.com/Wyxemon/Vendy-desktop/blob/main/README.md">
-  <img src="https://img.shields.io/badge/Castellano-24292F?style=for-the-badge&logo=googletranslate&logoColor=white" />
-</a>
+  <a href="https://github.com/Wyxemon/Vendy-desktop/blob/main/README-eus.md">
+    <img src="https://img.shields.io/badge/Euskera-24292F?style=for-the-badge&logo=googletranslate&logoColor=white" />
+  </a>
 </p>
 
 ![Preview](./preview1.png)
 
-<sub style="color: gray;">
-    Vendy taldeak sortutako 
-    <a href="https://vendyapp.vercel.app">denda publikoaren</a> 
-    adibidea erabiltzen duen mahaigaineko aplikazioa.
-</sub>
+<sub>Ejemplo de aplicación de escritorio con la <a href="https://vendyapp.vercel.app">tienda pública</a> de ejemplo creada por el equipo de Vendy.</sub>
 
-&nbsp;
+---
 
-## Erabilitako teknologiak
+## Tecnologías utilizadas
 
-[Electron](https://www.electronjs.org/) | Plataforma anitzeko mahaigaineko aplikazioak garatzeko framework-a |
+| Tecnología | Descripción |
+|---|---|
+| [Electron](https://www.electronjs.org/) | Framework para aplicaciones de escritorio multiplataforma |
+| [React](https://react.dev/) | Librería para construir interfaces de usuario |
+| [Vite](https://vite.dev/) | Herramienta de desarrollo rápida para proyectos frontend |
 
-[React](https://react.dev/) | Erabiltzaile interfazeak sortzeko liburutegia |
+---
 
-[Vite](https://vite.dev/) | Frontend proiektuetarako garapen tresna azkarra |
-
-## Aurretiazko baldintzak
+## Requisitos previos
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://npmjs.com/)
 
-## Instalazioa
+---
+
+## Instalación
 
 ```bash
-# 1. Klonatu biltegia
+# 1. Clona el repositorio
 git clone https://github.com/Wyxemon/Vendy-desktop.git
 
-# 2. Sartu direktorioan
+# 2. Entra en el directorio
 cd Vendy-desktop
 
-# 3. Instalatu dependentziak
+# 3. Instala las dependencias
 npm install
 ```
 
-## Exekuzioa
+---
 
-Aplikazioa behar bezala exekutatzeko, bi komandoak paraleloan abiatu behar dira terminal desberdinetan:
+## Ejecución
+
+Para ejecutar correctamente la aplicación, debes iniciar ambos comandos en paralelo en diferentes terminales:
 
 ```bash
-# Garapen zerbitzaria exekutatu (Vite)
+# Terminal 1 — Servidor de desarrollo (Vite)
 npm run dev
+```
 
-# Mahaigaineko aplikazioa exekutatu (Electron)
+```bash
+# Terminal 2 — Aplicación de escritorio (Electron)
 npm run start
 ```
 
-## Egilea
+---
+
+## Autor
 
 **Iñigo Viscarret Alvarez** · [@Wyxemon](https://github.com/Wyxemon)
