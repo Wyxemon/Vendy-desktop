@@ -18,7 +18,8 @@ function createWindow() {
         }
     });
 
-    win.loadFile(join(__dirname, 'dist/index.html'));
+    //win.loadFile(join(__dirname, 'dist/index.html'));
+    win.loadURL('http://localhost:5173/')
 
     win.on('closed', () => app.quit());
 }
